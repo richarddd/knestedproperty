@@ -24,7 +24,7 @@ object NestedPoetrySpek : Spek({
         }
         it("get value of nested class property") {
             val instance = Foo()
-            assertEquals("FooBars", (Foo::bar / Bar::value).value(instance))
+            assertEquals("FooBar", (Foo::bar / Bar::value).value(instance))
         }
     }
 
