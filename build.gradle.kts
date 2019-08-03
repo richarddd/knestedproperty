@@ -1,12 +1,12 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val kotlinVersion = "1.3.31"
+val kotlinVersion = "1.3.40"
 val junitPlatformVersion = "1.5.0"
 val spekVersion = "2.0.5"
 
 plugins {
     java
-    kotlin("jvm") version "1.3.31"
+    kotlin("jvm") version "1.3.40"
 }
 
 group = "se.davison.knestedpropery"
